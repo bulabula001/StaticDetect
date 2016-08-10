@@ -1,0 +1,52 @@
+INSERT INTO `syslog` (`opt_content`, `level`, `engine`, `module`, `create_time`) VALUES ('[StaticDetect]: Main Process Start', '6', '1', '4', '2016-06-07 14:27:15')
+---------------------------
+-          START          -
+---------------------------
+=====================================================
+Load Start
+-----------------------------------------------------
+INSERT INTO `syslog` (`opt_content`, `level`, `engine`, `module`, `create_time`) VALUES ('[StaticDetect]: Load MD5 White and Black List', '6', '1', '4', '2016-06-07 14:27:16')
+---------------------------
+-        LOAD   MD5       -
+---------------------------
+36	0	d1ef8a0e477570ad39f4667129400003
+---------------------------
+-     LOAD  MD5  END      -
+---------------------------
+INSERT INTO `syslog` (`opt_content`, `level`, `engine`, `module`, `create_time`) VALUES ('[StaticDetect]: Load IP White and Black List', '6', '1', '4', '2016-06-07 14:27:16')
+---------------------------
+-        LOAD  IP         -
+---------------------------
+35	0	192.168.31.2
+39	0	192.168.31.1
+40	0	192.168.31.2
+41	2	192.168.50.1
+---------------------------
+-       LOAD IP END       -
+---------------------------
+INSERT INTO `syslog` (`opt_content`, `level`, `engine`, `module`, `create_time`) VALUES ('[StaticDetect]: Load URL White and Black List', '6', '1', '4', '2016-06-07 14:27:16')
+---------------------------
+-     LOAD  URL  END      -
+---------------------------
+INSERT INTO `syslog` (`opt_content`, `level`, `engine`, `module`, `create_time`) VALUES ('[StaticDetect]: Load URL White and Black List', '6', '1', '4', '2016-06-07 14:27:16')
+---------------------------
+-     LOAD  URL  END      -
+---------------------------
+INSERT INTO `syslog` (`opt_content`, `level`, `engine`, `module`, `create_time`) VALUES ('[StaticDetect]: Load DNS White and Black List', '6', '1', '4', '2016-06-07 14:27:16')
+---------------------------
+-        LOAD   DNS       -
+---------------------------
+38	0	8.8.8.8
+---------------------------
+-       LOAD DNS END      -
+---------------------------
+----- INIT CLAMAV ENGINE  -
+10b8c20
+-----INIT ENGINE OVER------
+INSERT INTO `syslog` (`opt_content`, `level`, `engine`, `module`, `create_time`) VALUES ('[StaticDetect]: Init ClamAV Engine Finished', '6', '1', '4', '2016-06-07 14:27:28')
+=====================================================
+Load end
+-----------------------------------------------------
+=====================================================
+Starting receive:
+-----------------------------------------------------

@@ -1,0 +1,18 @@
+
+cmd:
+
+	g++  -g main.cpp -o ../Exec/main /usr/include/jsoncpp/libjson.a -L /usr/lib64/mysql -lmysqlclient
+
+	gcc  -g msg_send.c -o ../Exec/msg_send	
+
+
+
+	gcc -g cJSON.c test_json.c  -o test_json -lm
+	g++ 1.cpp  -o  1  /usr/include/jsoncpp/libjson.a
+	gcc test_mysql_connect.c  -L /usr/lib64/mysql -lmysqlclient
+	
+	g++  -g main.cpp -o main /usr/include/jsoncpp/libjson.a -L /usr/lib64/mysql -lmysqlclient -lclamav 
+	g++ recv.cpp -o recv  -I/usr/local/ActiveMQ-CPP/include/activemq-cpp-3.9.2 -I/usr/local/apr//include/apr-1   -L/usr/local/ActiveMQ-CPP/lib -lactivemq-cpp  /usr/include/jsoncpp/libjson.a
+
+	
+	g++  -g main.cpp -o main /usr/include/jsoncpp/libjson.a -L /usr/lib64/mysql -lmysqlclient -lclamav  -I/usr/local/ActiveMQ-CPP/include/activemq-cpp-3.9.2 -I/usr/local/apr//include/apr-1   -L/usr/local/ActiveMQ-CPP/lib -lactivemq-cpp 

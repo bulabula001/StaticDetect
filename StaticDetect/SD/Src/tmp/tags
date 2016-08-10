@@ -1,0 +1,182 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AC	main.cpp	/^ AC( int tag){$/;"	f	class:AC	access:public	signature:( int tag)
+AC	main.cpp	/^ AC(){$/;"	f	class:AC	access:public	signature:()
+AC	main.cpp	/^class AC{$/;"	c	file:
+AC::AC	main.cpp	/^ AC( int tag){$/;"	f	class:AC	access:public	signature:( int tag)
+AC::AC	main.cpp	/^ AC(){$/;"	f	class:AC	access:public	signature:()
+AC::checkMaxChildString	main.cpp	/^void  checkMaxChildString(string s){\/\/s是待检测模式串$/;"	f	class:AC	access:public	signature:(string s)
+AC::checkStrings	main.cpp	/^ int  checkStrings(string text){\/\/进行模式匹配,text是要被用来匹配的模式$/;"	f	class:AC	access:public	signature:(string text)
+AC::update	main.cpp	/^void update( int tag){$/;"	f	class:AC	access:public	signature:( int tag)
+AC::vecIndexNode	main.cpp	/^ vector<indexNode>vecIndexNode;\/\/存储了状态机的vector,现在的问题是要能够保证能够访问到该vector里面的每一个重复状态，可以使用find函数进行查找$/;"	m	class:AC	file:	access:public
+AC::vecIndexNode_ck	main.cpp	/^ vector<indexNode>vecIndexNode_ck;\/\/存储了状态机的vector,现在的问题是要能够保证能够访问到该vector里面的每一个重复状态，可以使用find函数进行查找$/;"	m	class:AC	file:	access:public
+AC::vecNode	main.cpp	/^ vector<Node>vecNode;\/\/vecNode向量存储了各个状态的信息$/;"	m	class:AC	file:	access:public
+AC::vecNode_ck	main.cpp	/^ vector<Node>vecNode_ck;\/\/vecNode向量存储了各个状态的信息$/;"	m	class:AC	file:	access:public
+AC::vecString	main.cpp	/^ vector<string>vecString;\/\/vecString存储了模式串集合$/;"	m	class:AC	file:	access:public
+GET_ClamAV_Engine	main.cpp	/^struct cl_engine *GET_ClamAV_Engine(){$/;"	f	signature:()
+MAX_BUF_SIZE	main.cpp	56;"	d	file:
+MSGKEY	main.cpp	55;"	d	file:
+MSGKEY	msg_send.c	13;"	d	file:
+MsgConsumer	main.cpp	/^    MsgConsumer(const MsgConsumer&);$/;"	p	class:MsgConsumer	file:	access:private	signature:(const MsgConsumer&)
+MsgConsumer	main.cpp	/^    MsgConsumer(const std::string& brokerURI, int numMessages, bool useTopic = false, bool sessionTransacted = false, int waitMillis = 30000) :$/;"	f	class:MsgConsumer	access:public	signature:(const std::string& brokerURI, int numMessages, bool useTopic = false, bool sessionTransacted = false, int waitMillis = 30000)
+MsgConsumer	main.cpp	/^class MsgConsumer : public ExceptionListener,$/;"	c	file:	inherits:ExceptionListener,MessageListener,Runnable
+MsgConsumer::MsgConsumer	main.cpp	/^    MsgConsumer(const MsgConsumer&);$/;"	p	class:MsgConsumer	file:	access:private	signature:(const MsgConsumer&)
+MsgConsumer::MsgConsumer	main.cpp	/^    MsgConsumer(const std::string& brokerURI, int numMessages, bool useTopic = false, bool sessionTransacted = false, int waitMillis = 30000) :$/;"	f	class:MsgConsumer	access:public	signature:(const std::string& brokerURI, int numMessages, bool useTopic = false, bool sessionTransacted = false, int waitMillis = 30000)
+MsgConsumer::brokerURI	main.cpp	/^    std::string brokerURI;$/;"	m	class:MsgConsumer	file:	access:private
+MsgConsumer::cleanup	main.cpp	/^    void cleanup() {$/;"	f	class:MsgConsumer	file:	access:private	signature:()
+MsgConsumer::close	main.cpp	/^    void close() {$/;"	f	class:MsgConsumer	access:public	signature:()
+MsgConsumer::connection	main.cpp	/^    Connection* connection;$/;"	m	class:MsgConsumer	file:	access:private
+MsgConsumer::consumer	main.cpp	/^    MessageConsumer* consumer;$/;"	m	class:MsgConsumer	file:	access:private
+MsgConsumer::destination	main.cpp	/^    Destination* destination;$/;"	m	class:MsgConsumer	file:	access:private
+MsgConsumer::doneLatch	main.cpp	/^    CountDownLatch doneLatch;$/;"	m	class:MsgConsumer	file:	access:private
+MsgConsumer::latch	main.cpp	/^    CountDownLatch latch;$/;"	m	class:MsgConsumer	file:	access:private
+MsgConsumer::onException	main.cpp	/^    virtual void onException(const CMSException& ex AMQCPP_UNUSED) {$/;"	f	class:MsgConsumer	access:public	signature:(const CMSException& ex AMQCPP_UNUSED)
+MsgConsumer::onMessage	main.cpp	/^    virtual void onMessage(const Message* message) {$/;"	f	class:MsgConsumer	access:public	signature:(const Message* message)
+MsgConsumer::operator =	main.cpp	/^    MsgConsumer& operator=(const MsgConsumer&);$/;"	p	class:MsgConsumer	file:	access:private	signature:(const MsgConsumer&)
+MsgConsumer::recMsg	main.cpp	/^	std::string recMsg;$/;"	m	class:MsgConsumer	file:	access:private
+MsgConsumer::run	main.cpp	/^    virtual void run() {$/;"	f	class:MsgConsumer	access:public	signature:()
+MsgConsumer::session	main.cpp	/^    Session* session;$/;"	m	class:MsgConsumer	file:	access:private
+MsgConsumer::sessionTransacted	main.cpp	/^    bool sessionTransacted;$/;"	m	class:MsgConsumer	file:	access:private
+MsgConsumer::useTopic	main.cpp	/^    bool useTopic;$/;"	m	class:MsgConsumer	file:	access:private
+MsgConsumer::waitMillis	main.cpp	/^    long waitMillis;$/;"	m	class:MsgConsumer	file:	access:private
+MsgConsumer::waitUntilReady	main.cpp	/^    void waitUntilReady() {$/;"	f	class:MsgConsumer	access:public	signature:()
+MsgConsumer::~MsgConsumer	main.cpp	/^    virtual ~MsgConsumer() {$/;"	f	class:MsgConsumer	access:public	signature:()
+Node	main.cpp	/^ Node(){\/\/构造函数$/;"	f	class:Node	access:public	signature:()
+Node	main.cpp	/^ Node(int NS, int PRS, bool IES, string MCS, string OSOTS, int WTGWF){\/\/构造函数$/;"	f	class:Node	access:public	signature:(int NS, int PRS, bool IES, string MCS, string OSOTS, int WTGWF)
+Node	main.cpp	/^class Node{$/;"	c	file:
+Node::Node	main.cpp	/^ Node(){\/\/构造函数$/;"	f	class:Node	access:public	signature:()
+Node::Node	main.cpp	/^ Node(int NS, int PRS, bool IES, string MCS, string OSOTS, int WTGWF){\/\/构造函数$/;"	f	class:Node	access:public	signature:(int NS, int PRS, bool IES, string MCS, string OSOTS, int WTGWF)
+Node::NodeStatus	main.cpp	/^ int NodeStatus;\/\/当前节点状态$/;"	m	class:Node	file:	access:public
+Node::isEndStatus	main.cpp	/^ bool isEndStatus;\/\/是否是终止状态$/;"	m	class:Node	file:	access:public
+Node::maxChildString	main.cpp	/^ string maxChildString;\/\/该节点串中前面除去第一个字符的最大子串$/;"	m	class:Node	file:	access:public
+Node::operator <<	main.cpp	/^ friend ostream& operator<<(ostream&cout, Node&n){$/;"	f	class:Node	access:friend	signature:(ostream&cout, Node&n)
+Node::outputStringOfThisStatus	main.cpp	/^ string outputStringOfThisStatus;\/\/如果当前节点是终止节点的话，当前节点应该要输出的内容$/;"	m	class:Node	file:	access:public
+Node::previewNodeStatus	main.cpp	/^ int previewNodeStatus;\/\/前一节点状态$/;"	m	class:Node	file:	access:public
+Node::setNode	main.cpp	/^ void setNode(int NS, int PRS, bool IES, string MCS, string OSOTS, int WTGWF){$/;"	f	class:Node	access:public	signature:(int NS, int PRS, bool IES, string MCS, string OSOTS, int WTGWF)
+Node::whereToGoWhenFailed	main.cpp	/^ int whereToGoWhenFailed;\/\/当失配的时候的跳转状态$/;"	m	class:Node	file:	access:public
+Node::whichCauseToThisStatus	main.cpp	/^ char whichCauseToThisStatus;\/\/哪一个动作导致了当前节点的出现$/;"	m	class:Node	file:	access:public
+NodeStatus	main.cpp	/^ int NodeStatus;\/\/当前节点状态$/;"	m	class:Node	file:	access:public
+ac_b	main.cpp	/^AC	ac_b;$/;"	v
+ac_w	main.cpp	/^AC	ac_w;$/;"	v
+brokerURI	main.cpp	/^    std::string brokerURI;$/;"	m	class:MsgConsumer	file:	access:private
+callback	main.cpp	/^int callback(const char* dir, const char* file)$/;"	f	signature:(const char* dir, const char* file)
+categary	msg_send.c	/^   int  categary;  $/;"	m	struct:msgstru	file:	access:public
+ch	main.cpp	/^ char ch;\/\/一次操作$/;"	m	class:indexNode	file:	access:public
+check	main.cpp	/^int check(vector<string> t, vector<string> & r)$/;"	f	signature:(vector<string> t, vector<string> & r)
+checkMaxChildString	main.cpp	/^void  checkMaxChildString(string s){\/\/s是待检测模式串$/;"	f	class:AC	access:public	signature:(string s)
+checkStrings	main.cpp	/^ int  checkStrings(string text){\/\/进行模式匹配,text是要被用来匹配的模式$/;"	f	class:AC	access:public	signature:(string text)
+check_av	main.cpp	/^int check_av(const char *file, string &v)		\/\/ v - name of virus if have$/;"	f	signature:(const char *file, string &v)
+check_dns	main.cpp	/^int check_dns(string dns) $/;"	f	signature:(string dns)
+check_ip	main.cpp	/^int check_ip(string ip) $/;"	f	signature:(string ip)
+check_md5	main.cpp	/^int check_md5(string md5) $/;"	f	signature:(string md5)
+check_url	main.cpp	/^int check_url( string t)$/;"	f	signature:( string t)
+cleanup	main.cpp	/^    void cleanup() {$/;"	f	class:MsgConsumer	file:	access:private	signature:()
+close	main.cpp	/^    void close() {$/;"	f	class:MsgConsumer	access:public	signature:()
+connection	main.cpp	/^    Connection* connection;$/;"	m	class:MsgConsumer	file:	access:private
+consumer	main.cpp	/^    MessageConsumer* consumer;$/;"	m	class:MsgConsumer	file:	access:private
+deljsonfile	main.cpp	/^void deljsonfile(const char *path)$/;"	f	signature:(const char *path)
+deljsonfile	test.cpp	/^void deljsonfile(const char *path)$/;"	f	signature:(const char *path)
+destination	main.cpp	/^    Destination* destination;$/;"	m	class:MsgConsumer	file:	access:private
+doneLatch	main.cpp	/^    CountDownLatch doneLatch;$/;"	m	class:MsgConsumer	file:	access:private
+end	main.cpp	/^struct timeval start, mid, end;$/;"	v	typeref:struct:
+engine	main.cpp	/^struct cl_engine *engine ;$/;"	v	typeref:struct:cl_engine
+file_scan	main.cpp	/^char *file_scan(const char *filename, struct cl_engine *engine){$/;"	f	signature:(const char *filename, struct cl_engine *engine)
+freadsome	main.cpp	/^int freadsome(void *dest, size_t remain, FILE *file)  $/;"	f	signature:(void *dest, size_t remain, FILE *file)
+func1	main.cpp	/^void * func1(void* args)  $/;"	f	signature:(void* args)
+func2	main.cpp	/^void * func2(void* args)  $/;"	f	signature:(void* args)
+g_conn	main.cpp	/^MYSQL		*g_conn; \/\/ mysql 连接$/;"	v
+g_db_name	main.cpp	/^const char	*g_db_name = "DMDB";$/;"	v
+g_db_port	main.cpp	/^const unsigned int g_db_port = 3306;$/;"	v
+g_host_name	main.cpp	/^const char	*g_host_name = "192.168.10.183";$/;"	v
+g_password	main.cpp	/^const char	*g_password = "Ztb1234567";$/;"	v
+g_res	main.cpp	/^MYSQL_RES 	*g_res; \/\/ mysql 记录集$/;"	v
+g_row	main.cpp	/^MYSQL_ROW 	g_row; \/\/ 字符串数组，mysql 记录行$/;"	v
+g_user_name	main.cpp	/^const char	*g_user_name = "radius";$/;"	v
+indexNode	main.cpp	/^ indexNode(){$/;"	f	class:indexNode	access:public	signature:()
+indexNode	main.cpp	/^ indexNode(int a, char b, int c){$/;"	f	class:indexNode	access:public	signature:(int a, char b, int c)
+indexNode	main.cpp	/^class indexNode{$/;"	c	file:
+indexNode::ch	main.cpp	/^ char ch;\/\/一次操作$/;"	m	class:indexNode	file:	access:public
+indexNode::indexNode	main.cpp	/^ indexNode(){$/;"	f	class:indexNode	access:public	signature:()
+indexNode::indexNode	main.cpp	/^ indexNode(int a, char b, int c){$/;"	f	class:indexNode	access:public	signature:(int a, char b, int c)
+indexNode::indexStatus	main.cpp	/^ int indexStatus;\/\/当前状态$/;"	m	class:indexNode	file:	access:public
+indexNode::nextStatusOfIndexStatus	main.cpp	/^ int nextStatusOfIndexStatus;\/\/操作结果转移到的状态$/;"	m	class:indexNode	file:	access:public
+indexNode::operator !=	main.cpp	/^ bool operator!=(const indexNode&iN){$/;"	f	class:indexNode	access:public	signature:(const indexNode&iN)
+indexNode::operator ==	main.cpp	/^ bool operator==(const indexNode&iN){$/;"	f	class:indexNode	access:public	signature:(const indexNode&iN)
+indexNode::set	main.cpp	/^ void set(int a, char b, int c){$/;"	f	class:indexNode	access:public	signature:(int a, char b, int c)
+indexStatus	main.cpp	/^ int indexStatus;\/\/当前状态$/;"	m	class:indexNode	file:	access:public
+interval_1	main.cpp	/^long interval_1, interval_2, interval_3;$/;"	v
+interval_2	main.cpp	/^long interval_1, interval_2, interval_3;$/;"	v
+interval_3	main.cpp	/^long interval_1, interval_2, interval_3;$/;"	v
+isEndStatus	main.cpp	/^ bool isEndStatus;\/\/是否是终止状态$/;"	m	class:Node	file:	access:public
+it_b	main.cpp	/^set<string>::iterator it_w, it_b, up_ip;$/;"	v
+it_b_dns	main.cpp	/^set<string>::iterator it_w_dns, it_b_dns, up_dns;$/;"	v
+it_b_md5	main.cpp	/^set<string>::iterator it_w_md5, it_b_md5, up_md5;$/;"	v
+it_b_url	main.cpp	/^set<string>::iterator it_w_url, it_b_url;$/;"	v
+it_w	main.cpp	/^set<string>::iterator it_w, it_b, up_ip;$/;"	v
+it_w_dns	main.cpp	/^set<string>::iterator it_w_dns, it_b_dns, up_dns;$/;"	v
+it_w_md5	main.cpp	/^set<string>::iterator it_w_md5, it_b_md5, up_md5;$/;"	v
+it_w_url	main.cpp	/^set<string>::iterator it_w_url, it_b_url;$/;"	v
+latch	main.cpp	/^    CountDownLatch latch;$/;"	m	class:MsgConsumer	file:	access:private
+load_msg_dns	main.cpp	/^int load_msg_dns()$/;"	f	signature:()
+load_msg_ip	main.cpp	/^int load_msg_ip()$/;"	f	signature:()
+load_msg_md5	main.cpp	/^int load_msg_md5()$/;"	f	signature:()
+main	main.cpp	/^int main(void)$/;"	f	signature:(void)
+main	msg_send.c	/^int main(void)  $/;"	f	signature:(void)
+main	test.cpp	/^int main(void)$/;"	f	signature:(void)
+maxChildString	main.cpp	/^ string maxChildString;\/\/该节点串中前面除去第一个字符的最大子串$/;"	m	class:Node	file:	access:public
+mid	main.cpp	/^struct timeval start, mid, end;$/;"	v	typeref:struct:
+mm_dns	main.cpp	/^set<string> mm_dns, nn_dns, ss_dns, tt_dns;$/;"	v
+mm_md5	main.cpp	/^set<string> mm_md5, nn_md5, ss_md5, tt_md5;$/;"	v
+mm_url	main.cpp	/^set<string> mm_url, nn_url;$/;"	v
+monitor	main.cpp	/^void monitor()$/;"	f	signature:()
+msgstru	msg_send.c	/^struct msgstru  $/;"	s	file:
+msgstru::categary	msg_send.c	/^   int  categary;  $/;"	m	struct:msgstru	file:	access:public
+msgstru::version	msg_send.c	/^   char version[2048];  $/;"	m	struct:msgstru	file:	access:public
+mutex	main.cpp	/^pthread_mutex_t mutex;$/;"	v
+mvjsonfile	main.cpp	/^void mvjsonfile(const char *spath, const char *dpath)$/;"	f	signature:(const char *spath, const char *dpath)
+mvjsonfile	test.cpp	/^void mvjsonfile(const char *spath, const char *dpath)$/;"	f	signature:(const char *spath, const char *dpath)
+nextStatusOfIndexStatus	main.cpp	/^ int nextStatusOfIndexStatus;\/\/操作结果转移到的状态$/;"	m	class:indexNode	file:	access:public
+nn_dns	main.cpp	/^set<string> mm_dns, nn_dns, ss_dns, tt_dns;$/;"	v
+nn_md5	main.cpp	/^set<string> mm_md5, nn_md5, ss_md5, tt_md5;$/;"	v
+nn_url	main.cpp	/^set<string> mm_url, nn_url;$/;"	v
+onException	main.cpp	/^    virtual void onException(const CMSException& ex AMQCPP_UNUSED) {$/;"	f	class:MsgConsumer	access:public	signature:(const CMSException& ex AMQCPP_UNUSED)
+onMessage	main.cpp	/^    virtual void onMessage(const Message* message) {$/;"	f	class:MsgConsumer	access:public	signature:(const Message* message)
+operator !=	main.cpp	/^ bool operator!=(const indexNode&iN){$/;"	f	class:indexNode	access:public	signature:(const indexNode&iN)
+operator <<	main.cpp	/^ friend ostream& operator<<(ostream&cout, Node&n){$/;"	f	class:Node	access:friend	signature:(ostream&cout, Node&n)
+operator =	main.cpp	/^    MsgConsumer& operator=(const MsgConsumer&);$/;"	p	class:MsgConsumer	file:	access:private	signature:(const MsgConsumer&)
+operator ==	main.cpp	/^ bool operator==(const indexNode&iN){$/;"	f	class:indexNode	access:public	signature:(const indexNode&iN)
+outputStringOfThisStatus	main.cpp	/^ string outputStringOfThisStatus;\/\/如果当前节点是终止节点的话，当前节点应该要输出的内容$/;"	m	class:Node	file:	access:public
+previewNodeStatus	main.cpp	/^ int previewNodeStatus;\/\/前一节点状态$/;"	m	class:Node	file:	access:public
+readjsonfile	main.cpp	/^int readjsonfile(const char *dir, const char *file, vector <string> & p)$/;"	f	signature:(const char *dir, const char *file, vector <string> & p)
+recMsg	main.cpp	/^	std::string recMsg;$/;"	m	class:MsgConsumer	file:	access:private
+run	main.cpp	/^    virtual void run() {$/;"	f	class:MsgConsumer	access:public	signature:()
+session	main.cpp	/^    Session* session;$/;"	m	class:MsgConsumer	file:	access:private
+sessionTransacted	main.cpp	/^    bool sessionTransacted;$/;"	m	class:MsgConsumer	file:	access:private
+set	main.cpp	/^ void set(int a, char b, int c){$/;"	f	class:indexNode	access:public	signature:(int a, char b, int c)
+setNode	main.cpp	/^ void setNode(int NS, int PRS, bool IES, string MCS, string OSOTS, int WTGWF){$/;"	f	class:Node	access:public	signature:(int NS, int PRS, bool IES, string MCS, string OSOTS, int WTGWF)
+ss_dns	main.cpp	/^set<string> mm_dns, nn_dns, ss_dns, tt_dns;$/;"	v
+ss_md5	main.cpp	/^set<string> mm_md5, nn_md5, ss_md5, tt_md5;$/;"	v
+start	main.cpp	/^struct timeval start, mid, end;$/;"	v	typeref:struct:timeval
+tt_dns	main.cpp	/^set<string> mm_dns, nn_dns, ss_dns, tt_dns;$/;"	v
+tt_md5	main.cpp	/^set<string> mm_md5, nn_md5, ss_md5, tt_md5;$/;"	v
+up_dns	main.cpp	/^set<string>::iterator it_w_dns, it_b_dns, up_dns;$/;"	v
+up_ip	main.cpp	/^set<string>::iterator it_w, it_b, up_ip;$/;"	v
+up_md5	main.cpp	/^set<string>::iterator it_w_md5, it_b_md5, up_md5;$/;"	v
+update	main.cpp	/^void update( int tag){$/;"	f	class:AC	access:public	signature:( int tag)
+useTopic	main.cpp	/^    bool useTopic;$/;"	m	class:MsgConsumer	file:	access:private
+vecIndexNode	main.cpp	/^ vector<indexNode>vecIndexNode;\/\/存储了状态机的vector,现在的问题是要能够保证能够访问到该vector里面的每一个重复状态，可以使用find函数进行查找$/;"	m	class:AC	file:	access:public
+vecIndexNode_ck	main.cpp	/^ vector<indexNode>vecIndexNode_ck;\/\/存储了状态机的vector,现在的问题是要能够保证能够访问到该vector里面的每一个重复状态，可以使用find函数进行查找$/;"	m	class:AC	file:	access:public
+vecNode	main.cpp	/^ vector<Node>vecNode;\/\/vecNode向量存储了各个状态的信息$/;"	m	class:AC	file:	access:public
+vecNode_ck	main.cpp	/^ vector<Node>vecNode_ck;\/\/vecNode向量存储了各个状态的信息$/;"	m	class:AC	file:	access:public
+vecString	main.cpp	/^ vector<string>vecString;\/\/vecString存储了模式串集合$/;"	m	class:AC	file:	access:public
+version	msg_send.c	/^   char version[2048];  $/;"	m	struct:msgstru	file:	access:public
+waitMillis	main.cpp	/^    long waitMillis;$/;"	m	class:MsgConsumer	file:	access:private
+waitUntilReady	main.cpp	/^    void waitUntilReady() {$/;"	f	class:MsgConsumer	access:public	signature:()
+whereToGoWhenFailed	main.cpp	/^ int whereToGoWhenFailed;\/\/当失配的时候的跳转状态$/;"	m	class:Node	file:	access:public
+whichCauseToThisStatus	main.cpp	/^ char whichCauseToThisStatus;\/\/哪一个动作导致了当前节点的出现$/;"	m	class:Node	file:	access:public
+writejsonfile	main.cpp	/^void writejsonfile(int tag, const char * file, vector<string>  p)$/;"	f	signature:(int tag, const char * file, vector<string> p)
+~MsgConsumer	main.cpp	/^    virtual ~MsgConsumer() {$/;"	f	class:MsgConsumer	access:public	signature:()
